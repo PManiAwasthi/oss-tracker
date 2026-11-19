@@ -50,7 +50,6 @@
     "first-timers-only": 15, "good first issue": 15, "good-first-issue": 15,
     "beginner": 12, "easy": 12, "help wanted": 5, "documentation": 3
   },
-  "search_labels": ["good first issue", "good-first-issue", "first-timers-only", "beginner", "easy"],
 
   "limits": {
     "max_active": 150,

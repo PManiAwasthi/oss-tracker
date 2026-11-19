@@ -19,14 +19,20 @@ STATE = {"closed": set(), "assigned": {}, "pr": set(), "claim": set()}
 def fake_gh(path, params=None, accept=None):
     if path.startswith("/search/repositories"):
         return {"items": [{"full_name": "newlab/neurotool"}]}
-    if path.startswith("/search/issues"):
-        repo = params["q"].split()[0][5:]
+    if path.endswith("/labels"):
+        return [{"name": "Good First Issue"}, {"name": "bug"}, {"name": "difficulty: easy"}]
+    if path.endswith("/issues"):
+        repo = path[len("/repos/"):-len("/issues")]
         if repo not in ("nilearn/nilearn", "huggingface/transformers", "newlab/neurotool"):
-            return {"items": []}
-        return {"items": [{
+            return []
+        assert params["assignee"] == "none" and params["state"] == "open"
+        items = [{
             "number": n, "title": f"{repo} issue {n} | pipe", "html_url": f"https://github.com/{repo}/issues/{n}",
             "labels": [{"name": "good first issue"}], "created_at": iso(n * 10), "comments": n % 4,
-        } for n in range(1, 8)]}
+        } for n in range(1, 8)]
+        items.append({"number": 99, "title": "a PR", "pull_request": {}, "html_url": "x",
+                      "labels": [], "created_at": iso(1), "comments": 0})
+        return items
     if path.endswith("/timeline"):
         k = path.split("/repos/")[1].replace("/issues/", "#").replace("/timeline", "")
         ev = []
@@ -79,4 +85,7 @@ md = open(os.path.join(tmp, "ISSUES.md")).read()
 assert "Recently closed" in md and "⭐ yours" in md and "<!-- TOP-START -->" in md
 print("run 2:", len(issues), "active,", len(closed), "closed")
 print(md[:1500])
+assert not any(k.endswith("#99") for k in issues), "PRs must be filtered out"
+labels = json.load(open(os.path.join(tmp, "data/labels.json")))
+assert labels["nilearn/nilearn"]["labels"] == ["Good First Issue", "difficulty: easy"]
 print("ALL TESTS PASSED")

@@ -21,8 +21,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
 NOW = dt.datetime.now(dt.timezone.utc)
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
-CALL_BUDGET = 700        # GitHub Actions token allows 1000/hour; stay well under
+CALL_BUDGET = 850        # GitHub Actions token allows 1000/hour; stay under it
 _calls = 0
+SEARCH_BLOCKED = False   # set when GitHub's search API pushes back; we stop searching
 
 
 def budget_ok():
@@ -54,6 +55,11 @@ def _request(path, params, accept):
             body = e.read().decode("utf-8", "ignore").lower()
             limited = e.code == 429 or (e.code == 403 and (
                 e.headers.get("X-RateLimit-Remaining") == "0" or "rate limit" in body))
+            if limited and path.startswith("/search"):
+                global SEARCH_BLOCKED
+                SEARCH_BLOCKED = True
+                print(f"  search API limited ({e.code}): {body[:160]}", file=sys.stderr)
+                return None
             if limited and attempt < 2:
                 reset = int(e.headers.get("X-RateLimit-Reset", 0) or 0)
                 wait = max(5, min(90, reset - time.time() + 1)) if reset else 30
@@ -73,10 +79,32 @@ def _request(path, params, accept):
     return None
 
 
-def search_issues(q):
-    time.sleep(2.2)  # search API: 30 req/min
-    res = gh("/search/issues", {"q": q, "per_page": 30, "sort": "created", "order": "desc"})
-    return (res or {}).get("items", [])
+BEGINNER_HINTS = ("good first", "good-first", "first-timers", "first timers", "beginner", "easy", "starter")
+
+
+def beginner_labels(repo, cache):
+    """Names of this repo's beginner-type labels. Cached for 7 days in data/labels.json."""
+    c = cache.get(repo)
+    if c and days(c["fetched"]) < 7:
+        return c["labels"]
+    labels = []
+    for page in (1, 2, 3):
+        res = gh(f"/repos/{repo}/labels", {"per_page": 100, "page": page})
+        if not res:
+            break
+        labels += [l["name"] for l in res if any(h in l["name"].lower() for h in BEGINNER_HINTS)]
+        if len(res) < 100:
+            break
+    if res is not None or labels:
+        cache[repo] = {"labels": labels, "fetched": NOW.isoformat()}
+    return labels
+
+
+def repo_issues(repo, label):
+    """Open, unassigned issues (not PRs) with this label, newest first."""
+    res = gh(f"/repos/{repo}/issues", {"labels": label, "state": "open", "assignee": "none",
+                                       "sort": "created", "direction": "desc", "per_page": 30}) or []
+    return [r for r in res if "pull_request" not in r]
 
 
 # ---------------------------------------------------------------- helpers
@@ -184,8 +212,11 @@ def discover(cfg, known, n_discovered):
     since = (NOW - dt.timedelta(days=60)).date().isoformat()
     found = {}
     for topic, tier in d["topics"].items():
+        if SEARCH_BLOCKED:
+            print("  skipping rest of discovery this week (search limited)")
+            break
         stars = d["big_topic_min_stars"] if topic in d["big_topics"] else d["min_stars"]
-        time.sleep(2.2)
+        time.sleep(7)  # stay far below search limits
         res = gh("/search/repositories", {
             "q": f"topic:{topic} stars:>={stars} pushed:>={since} good-first-issues:>0 archived:false",
             "sort": "stars", "per_page": 15}) or {}
@@ -237,7 +268,7 @@ def main():
     print(f"verified {len(issues) + len(closed_today)}, closed {len(closed_today)}")
 
     # 2. search for new ones
-    label_q = ",".join(f'"{l}"' for l in cfg["search_labels"])
+    labels_cache = load("labels.json", {})
     candidates = []
     for repo, tier in repos.items():
         if not budget_ok():
@@ -245,17 +276,20 @@ def main():
         m = repo_meta(repo)
         if not m["ok"] or m["archived"] or days(m["pushed"]) > lim["skip_repo_if_no_push_days"]:
             continue
-        q = f"repo:{repo} is:issue is:open no:assignee label:{label_q}"
-        for r in search_issues(q):
-            k = key(repo, r["number"])
-            if k in issues or k in closed or days(r["created_at"]) > lim["skip_issue_older_than_days"]:
-                continue
-            candidates.append({
-                "repo": repo, "number": r["number"], "title": r["title"], "url": r["html_url"],
-                "labels": [l["name"] for l in r.get("labels", [])], "created": r["created_at"],
-                "comments": r.get("comments", 0), "tier": tier, "stars": m["stars"],
-                "lang": m["lang"], "added": NOW.date().isoformat(), "status": "active",
-            })
+        seen = set()
+        for label in beginner_labels(repo, labels_cache)[:2]:
+            for r in repo_issues(repo, label):
+                k = key(repo, r["number"])
+                if (r["number"] in seen or k in issues or k in closed
+                        or days(r["created_at"]) > lim["skip_issue_older_than_days"]):
+                    continue
+                seen.add(r["number"])
+                candidates.append({
+                    "repo": repo, "number": r["number"], "title": r["title"], "url": r["html_url"],
+                    "labels": [l["name"] for l in r.get("labels", [])], "created": r["created_at"],
+                    "comments": r.get("comments", 0), "tier": tier, "stars": m["stars"],
+                    "lang": m["lang"], "added": NOW.date().isoformat(), "status": "active",
+                })
 
     for c in candidates:
         c["score"] = score(c, cfg)
@@ -294,6 +328,7 @@ def main():
     save("issues.json", issues)
     save("closed.json", closed)
     save("repos_discovered.json", discovered)
+    save("labels.json", labels_cache)
     write_md(issues, closed, closed_today, added, lim["top_n_for_audit"])
 
 

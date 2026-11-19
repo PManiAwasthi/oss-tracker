@@ -30,7 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_DISCOVERY: ${{ inputs.force_discovery && '1' || '0' }}
-        run: python scan.py
+        run: python -u scan.py
       - name: Commit changes
         run: |
           git config user.name "oss-tracker-bot"
