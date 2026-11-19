@@ -1,0 +1,363 @@
+{
+ "ME-ICA/tedana#1503": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 1,
+  "created": "2026-09-16T14:55:06Z",
+  "labels": [
+   "good first issue",
+   "refactoring",
+   "effort: low",
+   "impact: low"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 1503,
+  "repo": "ME-ICA/tedana",
+  "score": 59,
+  "stars": 193,
+  "status": "active",
+  "tier": 3,
+  "title": "Remove `ignored` classifications from code.",
+  "url": "https://github.com/ME-ICA/tedana/issues/1503"
+ },
+ "ViciousSquid/Dosidicus#31": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 1,
+  "created": "2026-03-10T15:28:54Z",
+  "labels": [
+   "help wanted",
+   "good first issue",
+   "ToDo"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 31,
+  "repo": "ViciousSquid/Dosidicus",
+  "score": 55,
+  "stars": 335,
+  "status": "active",
+  "tier": 3,
+  "title": "ToDo: Squid should change size based on age",
+  "url": "https://github.com/ViciousSquid/Dosidicus/issues/31"
+ },
+ "aramis-lab/clinica#1391": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 6,
+  "created": "2024-11-22T13:10:28Z",
+  "labels": [
+   "good first issue",
+   "doc"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 1391,
+  "repo": "aramis-lab/clinica",
+  "score": 39,
+  "stars": 295,
+  "status": "active",
+  "tier": 3,
+  "title": "Fix the indentation in OASIS3-to-BIDS - supported modalities",
+  "url": "https://github.com/aramis-lab/clinica/issues/1391"
+ },
+ "bids-standard/bids-specification#2463": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 10,
+  "created": "2026-07-08T23:52:52Z",
+  "labels": [
+   "good first issue",
+   "data format"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 2463,
+  "repo": "bids-standard/bids-specification",
+  "score": 40,
+  "stars": 379,
+  "status": "active",
+  "tier": 3,
+  "title": "Plain-text TSV for motion/physio doesn't scale, can we allow a compact binary format?",
+  "url": "https://github.com/bids-standard/bids-specification/issues/2463"
+ },
+ "brainglobe/cellfinder#626": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 2,
+  "created": "2026-06-11T12:47:52Z",
+  "labels": [
+   "enhancement",
+   "good first issue"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 626,
+  "repo": "brainglobe/cellfinder",
+  "score": 54,
+  "stars": 233,
+  "status": "active",
+  "tier": 3,
+  "title": "[Feature] progress bar during saving of curated data in the `napari` GUI",
+  "url": "https://github.com/brainglobe/cellfinder/issues/626"
+ },
+ "flatironinstitute/nemos#642": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 6,
+  "created": "2026-10-14T00:49:52Z",
+  "labels": [
+   "bug",
+   "good first issue"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 642,
+  "repo": "flatironinstitute/nemos",
+  "score": 34,
+  "stars": 146,
+  "status": "maybe-claimed",
+  "tier": 3,
+  "title": "1D intercept of length 1 is accepted as `fix_params` in population GLM with more than 1 unit",
+  "url": "https://github.com/flatironinstitute/nemos/issues/642"
+ },
+ "ggml-org/llama.cpp#10747": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 41,
+  "created": "2024-12-10T05:12:25Z",
+  "labels": [
+   "help wanted",
+   "good first issue",
+   "build"
+  ],
+  "lang": "C++",
+  "note": "",
+  "number": 10747,
+  "repo": "ggml-org/llama.cpp",
+  "score": 23,
+  "stars": 135720,
+  "status": "active",
+  "tier": 2,
+  "title": "Compile bug: ios swift xcode build error when upgrade to llama : use cmake for swift build ",
+  "url": "https://github.com/ggml-org/llama.cpp/issues/10747"
+ },
+ "huggingface/peft#2310": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 180,
+  "created": "2025-01-07T07:07:50Z",
+  "labels": [
+   "good first issue",
+   "help wanted",
+   "contributions-welcome"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 2310,
+  "repo": "huggingface/peft",
+  "score": 23,
+  "stars": 21910,
+  "status": "active",
+  "tier": 2,
+  "title": "Comparison of Different Fine-Tuning Techniques for Conversational AI",
+  "url": "https://github.com/huggingface/peft/issues/2310"
+ },
+ "mne-tools/mne-python#14385": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 2,
+  "created": "2026-10-07T17:12:00Z",
+  "labels": [
+   "ENH",
+   "EASY"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 14385,
+  "repo": "mne-tools/mne-python",
+  "score": 39,
+  "stars": 3615,
+  "status": "maybe-claimed",
+  "tier": 3,
+  "title": "Add support for saving larger-resolution images",
+  "url": "https://github.com/mne-tools/mne-python/issues/14385"
+ },
+ "nest/nest-simulator#3398": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 2,
+  "created": "2025-01-25T13:17:15Z",
+  "labels": [
+   "T: Bug",
+   "S: Normal",
+   "I: Behavior changes",
+   "good first issue",
+   "stale"
+  ],
+  "lang": "C++",
+  "note": "",
+  "number": 3398,
+  "repo": "nest/nest-simulator",
+  "score": 45,
+  "stars": 678,
+  "status": "active",
+  "tier": 3,
+  "title": "Revise semantics and documentation of Disconnect",
+  "url": "https://github.com/nest/nest-simulator/issues/3398"
+ },
+ "nest/nest-simulator#3399": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 2,
+  "created": "2025-02-06T14:28:06Z",
+  "labels": [
+   "S: Normal",
+   "I: No breaking change",
+   "good first issue",
+   "stale"
+  ],
+  "lang": "C++",
+  "note": "",
+  "number": 3399,
+  "repo": "nest/nest-simulator",
+  "score": 45,
+  "stars": 678,
+  "status": "active",
+  "tier": 3,
+  "title": "Replace C macros by C++ constexpr",
+  "url": "https://github.com/nest/nest-simulator/issues/3399"
+ },
+ "nest/nest-simulator#3734": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 1,
+  "created": "2026-02-08T12:13:31Z",
+  "labels": [
+   "S: Normal",
+   "T: Maintenance",
+   "I: No breaking change",
+   "good first issue"
+  ],
+  "lang": "C++",
+  "note": "recent claim comment",
+  "number": 3734,
+  "repo": "nest/nest-simulator",
+  "score": 35,
+  "stars": 678,
+  "status": "maybe-claimed",
+  "tier": 3,
+  "title": "Revise node argument to update_value_param()",
+  "url": "https://github.com/nest/nest-simulator/issues/3734"
+ },
+ "neuronsimulator/nrn#3881": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 0,
+  "created": "2026-10-05T12:33:55Z",
+  "labels": [
+   "enhancement",
+   "good for beginners",
+   "nmodl"
+  ],
+  "lang": "C++",
+  "note": "",
+  "number": 3881,
+  "repo": "neuronsimulator/nrn",
+  "score": 45,
+  "stars": 569,
+  "status": "active",
+  "tier": 3,
+  "title": "Replace Crout LU decomposition with Eigen",
+  "url": "https://github.com/neuronsimulator/nrn/issues/3881"
+ },
+ "neuropoly/spinalcordtoolbox#4748": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 1,
+  "created": "2024-12-06T16:42:45Z",
+  "labels": [
+   "good first issue",
+   "user requested",
+   "documentation/*.rst"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 4748,
+  "repo": "neuropoly/spinalcordtoolbox",
+  "score": 44,
+  "stars": 274,
+  "status": "active",
+  "tier": 3,
+  "title": "SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is \">=10.13\"",
+  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748"
+ },
+ "neuropoly/spinalcordtoolbox#5141": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 2,
+  "created": "2026-01-13T16:43:27Z",
+  "labels": [
+   "sct_qc",
+   "good first issue"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 5141,
+  "repo": "neuropoly/spinalcordtoolbox",
+  "score": 34,
+  "stars": 274,
+  "status": "maybe-claimed",
+  "tier": 3,
+  "title": "Display filename for image being shown in QC report (i.e. output image, rather than input image)",
+  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141"
+ },
+ "pytorch/pytorch#153410": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 19,
+  "created": "2025-05-12T20:49:55Z",
+  "labels": [
+   "good first issue",
+   "oncall: pt2",
+   "export-triaged",
+   "oncall: export"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 153410,
+  "repo": "pytorch/pytorch",
+  "score": 23,
+  "stars": 105699,
+  "status": "active",
+  "tier": 2,
+  "title": "[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_only=True`",
+  "url": "https://github.com/pytorch/pytorch/issues/153410"
+ },
+ "pytorch/pytorch#158968": {
+  "added": "2026-11-19",
+  "checked": "2026-11-19",
+  "comments": 19,
+  "created": "2025-07-23T20:50:55Z",
+  "labels": [
+   "feature",
+   "good first issue",
+   "triaged",
+   "oncall: pt2",
+   "module: inductor",
+   "module: dynamo",
+   "internal ramp-up task"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 158968,
+  "repo": "pytorch/pytorch",
+  "score": 23,
+  "stars": 105699,
+  "status": "active",
+  "tier": 2,
+  "title": "foreach_map enhancements",
+  "url": "https://github.com/pytorch/pytorch/issues/158968"
+ }
+}

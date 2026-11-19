@@ -1,0 +1,435 @@
+{
+ "ANTsX/ANTsPy": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "AllenInstitute/AllenSDK": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "DeepLabCut/DeepLabCut": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "EleutherAI/lm-evaluation-harness": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "Lightning-AI/pytorch-lightning": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "ME-ICA/tedana": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "MouseLand/suite2p": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "NeuralEnsemble/elephant": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "NeuralEnsemble/python-neo": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good-for-beginners"
+  ]
+ },
+ "NeurodataWithoutBorders/pynwb": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "help wanted: good first issue"
+  ]
+ },
+ "NeuromatchAcademy/course-content": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "Project-MONAI/MONAI": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "Slicer/Slicer": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "SpikeInterface/spikeinterface": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "TransformerLensOrg/TransformerLens": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "ViciousSquid/Dosidicus": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "aramis-lab/clinica": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "bids-standard/bids-specification": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "bids-standard/pybids": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good for beginners"
+  ]
+ },
+ "brain-score/vision": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "braindecode/braindecode": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "brainflow-dev/brainflow": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "brainglobe/brainglobe-atlasapi": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "brainglobe/cellfinder": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "brainiak/brainiak": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "easy",
+   "good first issue"
+  ]
+ },
+ "brainpy/BrainPy": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "brian-team/brian2": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "easy"
+  ]
+ },
+ "dandi/dandi-cli": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "easy",
+   "good first issue"
+  ]
+ },
+ "dipy/dipy": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "Beginner-friendly"
+  ]
+ },
+ "explosion/spaCy": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "help wanted (easy)"
+  ]
+ },
+ "flatironinstitute/CaImAn": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "flatironinstitute/nemos": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "fury-gl/fury": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "ggml-org/llama.cpp": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "huggingface/datasets": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "huggingface/diffusers": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "huggingface/peft": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "huggingface/transformers": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "Good First Documentation Issue",
+   "Good First Issue"
+  ]
+ },
+ "huggingface/trl": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "\ud83d\udc76 good first issue"
+  ]
+ },
+ "jax-ml/jax": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "jaxleyverse/jaxley": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "jeshraghian/snntorch": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "keras-team/keras": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "Good first issue"
+  ]
+ },
+ "matplotlib/matplotlib": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "Difficulty: Easy",
+   "\ud83c\udf31 Good first issue"
+  ]
+ },
+ "mlflow/mlflow": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "mne-tools/mne-bids": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "easy"
+  ]
+ },
+ "mne-tools/mne-python": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "EASY"
+  ]
+ },
+ "nengo/nengo": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "nest/nest-simulator": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "neuroinformatics-unit/movement": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "neuronsimulator/nrn": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good for beginners"
+  ]
+ },
+ "neuropoly/spinalcordtoolbox": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "nilearn/nilearn": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "Good first issue"
+  ]
+ },
+ "nipreps/fmriprep": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "nipreps/mriqc": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "nipreps/niworkflows": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "nipreps/sdcflows": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "nipy/nibabel": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "nipy/nipype": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good-first-issue"
+  ]
+ },
+ "norse/norse": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "numpy/numpy": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "optuna/optuna": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "pandas-dev/pandas": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": []
+ },
+ "pydata/xarray": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "contrib-good-first-issue"
+  ]
+ },
+ "pynapple-org/pynapple": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "pytorch/captum": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "pytorch/pytorch": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "easy",
+   "good first issue"
+  ]
+ },
+ "run-llama/llama_index": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "scikit-learn/scikit-learn": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "Easy",
+   "good first issue",
+   "good first PR to review"
+  ]
+ },
+ "scipy/scipy": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "statsmodels/statsmodels": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "the-virtual-brain/tvb-root": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "vllm-project/vllm": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "waltsims/k-wave-python": {
+  "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ }
+}
