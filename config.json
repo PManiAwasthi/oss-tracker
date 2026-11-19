@@ -1,0 +1,69 @@
+{
+  "github_user": "PManiAwasthi",
+
+  "_tiers": "3 = neuro / neuro-AI bridge (best for your profile), 2 = AI / ML / LLM, 1 = general tooling (easy merges)",
+  "repos": {
+    "3": [
+      "nilearn/nilearn", "nipy/nipype", "nipy/nibabel", "nipreps/fmriprep", "nipreps/mriqc",
+      "nipreps/niworkflows", "nipreps/sdcflows", "dipy/dipy", "mne-tools/mne-python",
+      "mne-tools/mne-bids", "bids-standard/pybids", "ANTsX/ANTsPy", "brainiak/brainiak",
+      "neuropoly/spinalcordtoolbox", "Project-MONAI/MONAI", "fury-gl/fury",
+      "brian-team/brian2", "nest/nest-simulator", "neuronsimulator/nrn", "nengo/nengo",
+      "NeuralEnsemble/python-neo", "NeuralEnsemble/elephant", "SpikeInterface/spikeinterface",
+      "NeurodataWithoutBorders/pynwb", "dandi/dandi-cli", "pynapple-org/pynapple",
+      "flatironinstitute/nemos", "brainglobe/brainglobe-atlasapi", "brainglobe/cellfinder",
+      "MouseLand/suite2p", "flatironinstitute/CaImAn", "DeepLabCut/DeepLabCut",
+      "AllenInstitute/AllenSDK", "the-virtual-brain/tvb-root", "neurolib-dev/neurolib",
+      "jeshraghian/snntorch", "norse/norse", "brainpy/BrainPy", "brain-score/vision",
+      "NeuromatchAcademy/course-content", "TransformerLensOrg/TransformerLens"
+    ],
+    "2": [
+      "huggingface/transformers", "huggingface/datasets", "huggingface/diffusers",
+      "huggingface/peft", "huggingface/trl", "pytorch/pytorch", "pytorch/captum",
+      "Lightning-AI/pytorch-lightning", "scikit-learn/scikit-learn", "keras-team/keras",
+      "jax-ml/jax", "ggml-org/llama.cpp", "vllm-project/vllm", "EleutherAI/lm-evaluation-harness",
+      "mlflow/mlflow", "optuna/optuna", "run-llama/llama_index", "explosion/spaCy"
+    ],
+    "1": [
+      "pandas-dev/pandas", "numpy/numpy", "matplotlib/matplotlib", "scipy/scipy",
+      "statsmodels/statsmodels", "pydata/xarray"
+    ]
+  },
+
+  "_discovery": "Once a week (Mondays) new repos are found by GitHub topic. tier = tier given to repos found with that topic.",
+  "discovery": {
+    "weekday": 0,
+    "min_stars": 150,
+    "max_new_repos_per_run": 10,
+    "max_discovered_total": 40,
+    "topics": {
+      "neuroscience": 3, "neuroimaging": 3, "computational-neuroscience": 3, "fmri": 3,
+      "eeg": 3, "mri": 3, "spiking-neural-networks": 3, "brain-computer-interface": 3,
+      "connectomics": 3, "mechanistic-interpretability": 3,
+      "deep-learning": 2, "llm": 2, "machine-learning": 2
+    },
+    "big_topic_min_stars": 2000,
+    "big_topics": ["deep-learning", "llm", "machine-learning"]
+  },
+
+  "labels": {
+    "first-timers-only": 15, "good first issue": 15, "good-first-issue": 15,
+    "beginner": 12, "easy": 12, "help wanted": 5, "documentation": 3
+  },
+  "search_labels": ["good first issue", "good-first-issue", "first-timers-only", "beginner", "easy"],
+
+  "limits": {
+    "max_active": 150,
+    "max_new_per_run": 30,
+    "max_per_repo": 5,
+    "skip_repo_if_no_push_days": 180,
+    "skip_issue_older_than_days": 730,
+    "top_n_for_audit": 15
+  },
+
+  "claim_phrases": [
+    "i'd like to work", "i would like to work", "can i work", "may i work", "assign me",
+    "assign this to me", "i'm working on", "i am working on", "i'll take", "i will take",
+    "i'll work on", "i want to work on", "let me work on", "i can take this", "i'd like to take"
+  ]
+}
