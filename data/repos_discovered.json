@@ -1,4 +1,5 @@
 {
+ "HumanSignal/label-studio": 2,
  "ME-ICA/tedana": 3,
  "Slicer/Slicer": 3,
  "ViciousSquid/Dosidicus": 3,
@@ -6,7 +7,16 @@
  "bids-standard/bids-specification": 3,
  "braindecode/braindecode": 3,
  "brainflow-dev/brainflow": 3,
+ "deepinv/deepinv": 3,
+ "genn-team/genn": 3,
  "jaxleyverse/jaxley": 3,
+ "kylemath/EEGEdu": 3,
+ "microsoft/qlib": 2,
  "neuroinformatics-unit/movement": 3,
+ "pyg-team/pytorch_geometric": 2,
+ "ray-project/ray": 2,
+ "scalableminds/webknossos": 3,
+ "shap/shap": 2,
+ "spinalcordtoolbox/spinalcordtoolbox": 3,
  "waltsims/k-wave-python": 3
 }

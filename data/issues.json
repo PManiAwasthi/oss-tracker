@@ -1,7 +1,7 @@
 {
  "ME-ICA/tedana#1503": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 1,
   "created": "2026-09-16T14:55:06Z",
   "labels": [
@@ -11,19 +11,19 @@
    "impact: low"
   ],
   "lang": "Python",
-  "note": "",
+  "note": "your open PR",
   "number": 1503,
   "repo": "ME-ICA/tedana",
-  "score": 59,
+  "score": 159,
   "stars": 193,
-  "status": "active",
+  "status": "yours",
   "tier": 3,
   "title": "Remove `ignored` classifications from code.",
   "url": "https://github.com/ME-ICA/tedana/issues/1503"
  },
  "ViciousSquid/Dosidicus#31": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 1,
   "created": "2026-03-10T15:28:54Z",
   "labels": [
@@ -44,7 +44,7 @@
  },
  "aramis-lab/clinica#1391": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 6,
   "created": "2024-11-22T13:10:28Z",
   "labels": [
@@ -64,7 +64,7 @@
  },
  "bids-standard/bids-specification#2463": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 10,
   "created": "2026-07-08T23:52:52Z",
   "labels": [
@@ -84,7 +84,7 @@
  },
  "brainglobe/cellfinder#626": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 2,
   "created": "2026-06-11T12:47:52Z",
   "labels": [
@@ -102,9 +102,114 @@
   "title": "[Feature] progress bar during saving of curated data in the `napari` GUI",
   "url": "https://github.com/brainglobe/cellfinder/issues/626"
  },
+ "deepinv/deepinv#1112": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 0,
+  "created": "2026-03-25T13:47:04Z",
+  "labels": [
+   "good first issue",
+   "priority: low",
+   "type: documentation"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 1112,
+  "repo": "deepinv/deepinv",
+  "score": 55,
+  "stars": 858,
+  "status": "active",
+  "tier": 3,
+  "title": "Error in bregman_prox description",
+  "url": "https://github.com/deepinv/deepinv/issues/1112"
+ },
+ "deepinv/deepinv#1265": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 3,
+  "created": "2026-07-10T12:46:07Z",
+  "labels": [
+   "good first issue",
+   "priority: low",
+   "core"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 1265,
+  "repo": "deepinv/deepinv",
+  "score": 50,
+  "stars": 858,
+  "status": "active",
+  "tier": 3,
+  "title": "Test CI test on Apple MPS",
+  "url": "https://github.com/deepinv/deepinv/issues/1265"
+ },
+ "deepinv/deepinv#1510": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 1,
+  "created": "2026-11-20T18:36:11Z",
+  "labels": [
+   "type: feature",
+   "good first issue",
+   "open to contribs",
+   "priority: low"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 1510,
+  "repo": "deepinv/deepinv",
+  "score": 45,
+  "stars": 858,
+  "status": "maybe-claimed",
+  "tier": 3,
+  "title": "Anatomical / Bowsher Prior for emission tomography",
+  "url": "https://github.com/deepinv/deepinv/issues/1510"
+ },
+ "deepinv/deepinv#643": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 1,
+  "created": "2025-07-27T17:44:12Z",
+  "labels": [
+   "good first issue",
+   "priority: low",
+   "type: documentation"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 643,
+  "repo": "deepinv/deepinv",
+  "score": 45,
+  "stars": 858,
+  "status": "active",
+  "tier": 3,
+  "title": "Physics User Guide more verbose",
+  "url": "https://github.com/deepinv/deepinv/issues/643"
+ },
+ "deepinv/deepinv#899": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 3,
+  "created": "2025-11-06T19:03:05Z",
+  "labels": [
+   "good first issue",
+   "priority: high"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 899,
+  "repo": "deepinv/deepinv",
+  "score": 40,
+  "stars": 858,
+  "status": "active",
+  "tier": 3,
+  "title": "Weights information missing for DRUNet",
+  "url": "https://github.com/deepinv/deepinv/issues/899"
+ },
  "flatironinstitute/nemos#642": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 6,
   "created": "2026-10-14T00:49:52Z",
   "labels": [
@@ -122,9 +227,29 @@
   "title": "1D intercept of length 1 is accepted as `fix_params` in population GLM with more than 1 unit",
   "url": "https://github.com/flatironinstitute/nemos/issues/642"
  },
+ "genn-team/genn#752": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 2,
+  "created": "2026-05-18T12:31:46Z",
+  "labels": [
+   "enhancement",
+   "good first issue"
+  ],
+  "lang": "C++",
+  "note": "",
+  "number": 752,
+  "repo": "genn-team/genn",
+  "score": 54,
+  "stars": 287,
+  "status": "active",
+  "tier": 3,
+  "title": "Include problematic code in ErrorHandler reports",
+  "url": "https://github.com/genn-team/genn/issues/752"
+ },
  "ggml-org/llama.cpp#10747": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 41,
   "created": "2024-12-10T05:12:25Z",
   "labels": [
@@ -145,7 +270,7 @@
  },
  "huggingface/peft#2310": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 180,
   "created": "2025-01-07T07:07:50Z",
   "labels": [
@@ -166,7 +291,7 @@
  },
  "mne-tools/mne-python#14385": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 2,
   "created": "2026-10-07T17:12:00Z",
   "labels": [
@@ -174,19 +299,19 @@
    "EASY"
   ],
   "lang": "Python",
-  "note": "recent claim comment",
+  "note": "",
   "number": 14385,
   "repo": "mne-tools/mne-python",
-  "score": 39,
+  "score": 59,
   "stars": 3615,
-  "status": "maybe-claimed",
+  "status": "active",
   "tier": 3,
   "title": "Add support for saving larger-resolution images",
   "url": "https://github.com/mne-tools/mne-python/issues/14385"
  },
  "nest/nest-simulator#3398": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 2,
   "created": "2025-01-25T13:17:15Z",
   "labels": [
@@ -209,7 +334,7 @@
  },
  "nest/nest-simulator#3399": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 2,
   "created": "2025-02-06T14:28:06Z",
   "labels": [
@@ -231,7 +356,7 @@
  },
  "nest/nest-simulator#3734": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 1,
   "created": "2026-02-08T12:13:31Z",
   "labels": [
@@ -253,7 +378,7 @@
  },
  "neuronsimulator/nrn#3881": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 0,
   "created": "2026-10-05T12:33:55Z",
   "labels": [
@@ -274,7 +399,7 @@
  },
  "neuropoly/spinalcordtoolbox#4748": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 1,
   "created": "2024-12-06T16:42:45Z",
   "labels": [
@@ -295,7 +420,7 @@
  },
  "neuropoly/spinalcordtoolbox#5141": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 2,
   "created": "2026-01-13T16:43:27Z",
   "labels": [
@@ -315,7 +440,7 @@
  },
  "pytorch/pytorch#153410": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 19,
   "created": "2025-05-12T20:49:55Z",
   "labels": [
@@ -337,7 +462,7 @@
  },
  "pytorch/pytorch#158968": {
   "added": "2026-11-19",
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "comments": 19,
   "created": "2025-07-23T20:50:55Z",
   "labels": [
@@ -359,5 +484,178 @@
   "tier": 2,
   "title": "foreach_map enhancements",
   "url": "https://github.com/pytorch/pytorch/issues/158968"
+ },
+ "ray-project/ray#52656": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 3,
+  "created": "2025-04-28T17:51:56Z",
+  "labels": [
+   "bug",
+   "good-first-issue",
+   "tune",
+   "triage",
+   "community-backlog"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 52656,
+  "repo": "ray-project/ray",
+  "score": 33,
+  "stars": 44365,
+  "status": "active",
+  "tier": 2,
+  "title": "[Tune] Tuner.fit output table not visible in Dark mode",
+  "url": "https://github.com/ray-project/ray/issues/52656"
+ },
+ "ray-project/ray#53591": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 5,
+  "created": "2025-06-05T18:35:44Z",
+  "labels": [
+   "good-first-issue",
+   "enhancement",
+   "P1",
+   "usability",
+   "core"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 53591,
+  "repo": "ray-project/ray",
+  "score": 13,
+  "stars": 44365,
+  "status": "maybe-claimed",
+  "tier": 2,
+  "title": "[Core] ray._raylet.ObjectRef and ray.types.ObjectRef type compabtibility",
+  "url": "https://github.com/ray-project/ray/issues/53591"
+ },
+ "ray-project/ray#59884": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 9,
+  "created": "2026-01-06T08:07:52Z",
+  "labels": [
+   "good-first-issue",
+   "core",
+   "contribution-welcome"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 59884,
+  "repo": "ray-project/ray",
+  "score": 33,
+  "stars": 44365,
+  "status": "active",
+  "tier": 2,
+  "title": "[core] Adopt `absl::InlinedVector` for small, frequently-allocated collections",
+  "url": "https://github.com/ray-project/ray/issues/59884"
+ },
+ "ray-project/ray#62480": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 7,
+  "created": "2026-04-09T21:40:01Z",
+  "labels": [
+   "bug",
+   "good-first-issue",
+   "triage",
+   "serve",
+   "llm",
+   "stability",
+   "help-wanted"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 62480,
+  "repo": "ray-project/ray",
+  "score": 43,
+  "stars": 44365,
+  "status": "active",
+  "tier": 2,
+  "title": "[Serve][LLM] SGLangServer multi-replica support",
+  "url": "https://github.com/ray-project/ray/issues/62480"
+ },
+ "ray-project/ray#64880": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 6,
+  "created": "2026-07-20T17:07:21Z",
+  "labels": [
+   "good-first-issue",
+   "data",
+   "help-wanted"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 64880,
+  "repo": "ray-project/ray",
+  "score": 43,
+  "stars": 44365,
+  "status": "active",
+  "tier": 2,
+  "title": "[Data] Unity Catalog Delta Table Reads Won't Work with GCP Databricks",
+  "url": "https://github.com/ray-project/ray/issues/64880"
+ },
+ "run-llama/llama_index#24363": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 1,
+  "created": "2026-11-21T04:02:56Z",
+  "labels": [
+   "good first issue"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 24363,
+  "repo": "run-llama/llama_index",
+  "score": 38,
+  "stars": 52991,
+  "status": "maybe-claimed",
+  "tier": 2,
+  "title": "Docs idea: Screwtape agent_fleet_compliance for agent spend audit",
+  "url": "https://github.com/run-llama/llama_index/issues/24363"
+ },
+ "spinalcordtoolbox/spinalcordtoolbox#4748": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 1,
+  "created": "2024-12-06T16:42:45Z",
+  "labels": [
+   "good first issue",
+   "user requested",
+   "documentation/*.rst"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 4748,
+  "repo": "spinalcordtoolbox/spinalcordtoolbox",
+  "score": 44,
+  "stars": 274,
+  "status": "active",
+  "tier": 3,
+  "title": "SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is \">=10.13\"",
+  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748"
+ },
+ "spinalcordtoolbox/spinalcordtoolbox#5141": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "comments": 2,
+  "created": "2026-01-13T16:43:27Z",
+  "labels": [
+   "sct_qc",
+   "good first issue"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 5141,
+  "repo": "spinalcordtoolbox/spinalcordtoolbox",
+  "score": 34,
+  "stars": 274,
+  "status": "maybe-claimed",
+  "tier": 3,
+  "title": "Display filename for image being shown in QC report (i.e. output image, rather than input image)",
+  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141"
  }
 }

@@ -21,6 +21,12 @@
    "good first issue"
   ]
  },
+ "HumanSignal/label-studio": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
  "Lightning-AI/pytorch-lightning": {
   "fetched": "2026-11-19T17:11:37.030791+00:00",
   "labels": [
@@ -161,6 +167,12 @@
    "good first issue"
   ]
  },
+ "deepinv/deepinv": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
  "dipy/dipy": {
   "fetched": "2026-11-19T17:11:37.030791+00:00",
   "labels": [
@@ -187,6 +199,12 @@
  },
  "fury-gl/fury": {
   "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "genn-team/genn": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
   "labels": [
    "good first issue"
   ]
@@ -252,11 +270,23 @@
    "Good first issue"
   ]
  },
+ "kylemath/EEGEdu": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
  "matplotlib/matplotlib": {
   "fetched": "2026-11-19T17:11:37.030791+00:00",
   "labels": [
    "Difficulty: Easy",
    "\ud83c\udf31 Good first issue"
+  ]
+ },
+ "microsoft/qlib": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
+  "labels": [
+   "good first issue"
   ]
  },
  "mlflow/mlflow": {
@@ -369,6 +399,12 @@
    "contrib-good-first-issue"
   ]
  },
+ "pyg-team/pytorch_geometric": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
  "pynapple-org/pynapple": {
   "fetched": "2026-11-19T17:11:37.030791+00:00",
   "labels": [
@@ -388,8 +424,20 @@
    "good first issue"
   ]
  },
+ "ray-project/ray": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
+  "labels": [
+   "good-first-issue"
+  ]
+ },
  "run-llama/llama_index": {
   "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "scalableminds/webknossos": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
   "labels": [
    "good first issue"
   ]
@@ -404,6 +452,18 @@
  },
  "scipy/scipy": {
   "fetched": "2026-11-19T17:11:37.030791+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "shap/shap": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
+  "labels": [
+   "good first issue"
+  ]
+ },
+ "spinalcordtoolbox/spinalcordtoolbox": {
+  "fetched": "2026-11-23T08:02:11.069467+00:00",
   "labels": [
    "good first issue"
   ]
