@@ -1,1 +1,49 @@
-{}
+{
+ "deepinv/deepinv#1112": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "closed_on": "2026-11-24",
+  "closed_reason": "issue closed",
+  "comments": 0,
+  "created": "2026-03-25T13:47:04Z",
+  "labels": [
+   "good first issue",
+   "priority: low",
+   "type: documentation"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 1112,
+  "repo": "deepinv/deepinv",
+  "score": 55,
+  "stars": 858,
+  "status": "closed",
+  "tier": 3,
+  "title": "Error in bregman_prox description",
+  "url": "https://github.com/deepinv/deepinv/issues/1112"
+ },
+ "deepinv/deepinv#1510": {
+  "added": "2026-11-23",
+  "checked": "2026-11-23",
+  "closed_on": "2026-11-24",
+  "closed_reason": "assigned to kushagra481",
+  "comments": 1,
+  "created": "2026-11-20T18:36:11Z",
+  "labels": [
+   "type: feature",
+   "good first issue",
+   "open to contribs",
+   "priority: low"
+  ],
+  "lang": "Python",
+  "note": "recent claim comment",
+  "number": 1510,
+  "repo": "deepinv/deepinv",
+  "score": 45,
+  "stars": 858,
+  "status": "closed",
+  "tier": 3,
+  "title": "Anatomical / Bowsher Prior for emission tomography",
+  "url": "https://github.com/deepinv/deepinv/issues/1510"
+ }
+}
