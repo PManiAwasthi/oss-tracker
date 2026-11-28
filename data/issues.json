@@ -1,7 +1,7 @@
 {
  "ME-ICA/tedana#1503": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 1,
   "created": "2026-09-16T14:55:06Z",
   "labels": [
@@ -23,7 +23,7 @@
  },
  "ViciousSquid/Dosidicus#31": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 1,
   "created": "2026-03-10T15:28:54Z",
   "labels": [
@@ -44,7 +44,7 @@
  },
  "aramis-lab/clinica#1391": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 6,
   "created": "2024-11-22T13:10:28Z",
   "labels": [
@@ -64,7 +64,7 @@
  },
  "bids-standard/bids-specification#2463": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 10,
   "created": "2026-07-08T23:52:52Z",
   "labels": [
@@ -84,7 +84,7 @@
  },
  "brainglobe/cellfinder#626": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 2,
   "created": "2026-06-11T12:47:52Z",
   "labels": [
@@ -104,7 +104,7 @@
  },
  "deepinv/deepinv#1265": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 3,
   "created": "2026-07-10T12:46:07Z",
   "labels": [
@@ -125,7 +125,7 @@
  },
  "deepinv/deepinv#536": {
   "added": "2026-11-24",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 3,
   "created": "2025-06-13T17:30:39Z",
   "labels": [
@@ -144,30 +144,9 @@
   "title": "Static typing everywhere",
   "url": "https://github.com/deepinv/deepinv/issues/536"
  },
- "deepinv/deepinv#643": {
-  "added": "2026-11-23",
-  "checked": "2026-11-27",
-  "comments": 1,
-  "created": "2025-07-27T17:44:12Z",
-  "labels": [
-   "good first issue",
-   "priority: low",
-   "type: documentation"
-  ],
-  "lang": "Python",
-  "note": "",
-  "number": 643,
-  "repo": "deepinv/deepinv",
-  "score": 45,
-  "stars": 858,
-  "status": "active",
-  "tier": 3,
-  "title": "Physics User Guide more verbose",
-  "url": "https://github.com/deepinv/deepinv/issues/643"
- },
  "deepinv/deepinv#899": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 3,
   "created": "2025-11-06T19:03:05Z",
   "labels": [
@@ -187,7 +166,7 @@
  },
  "flatironinstitute/nemos#642": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 6,
   "created": "2026-10-14T00:49:52Z",
   "labels": [
@@ -207,7 +186,7 @@
  },
  "genn-team/genn#752": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 2,
   "created": "2026-05-18T12:31:46Z",
   "labels": [
@@ -227,7 +206,7 @@
  },
  "ggml-org/llama.cpp#10747": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 41,
   "created": "2024-12-10T05:12:25Z",
   "labels": [
@@ -248,7 +227,7 @@
  },
  "huggingface/peft#2310": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 180,
   "created": "2025-01-07T07:07:50Z",
   "labels": [
@@ -269,7 +248,7 @@
  },
  "mne-tools/mne-python#14385": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 2,
   "created": "2026-10-07T17:12:00Z",
   "labels": [
@@ -289,7 +268,7 @@
  },
  "nest/nest-simulator#3398": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 2,
   "created": "2025-01-25T13:17:15Z",
   "labels": [
@@ -312,7 +291,7 @@
  },
  "nest/nest-simulator#3399": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 2,
   "created": "2025-02-06T14:28:06Z",
   "labels": [
@@ -334,7 +313,7 @@
  },
  "nest/nest-simulator#3734": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 1,
   "created": "2026-02-08T12:13:31Z",
   "labels": [
@@ -356,7 +335,7 @@
  },
  "neuronsimulator/nrn#3881": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 0,
   "created": "2026-10-05T12:33:55Z",
   "labels": [
@@ -377,7 +356,7 @@
  },
  "neuropoly/spinalcordtoolbox#4748": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 1,
   "created": "2024-12-06T16:42:45Z",
   "labels": [
@@ -396,29 +375,9 @@
   "title": "SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is \">=10.13\"",
   "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748"
  },
- "neuropoly/spinalcordtoolbox#5141": {
-  "added": "2026-11-19",
-  "checked": "2026-11-27",
-  "comments": 2,
-  "created": "2026-01-13T16:43:27Z",
-  "labels": [
-   "sct_qc",
-   "good first issue"
-  ],
-  "lang": "Python",
-  "note": "",
-  "number": 5141,
-  "repo": "neuropoly/spinalcordtoolbox",
-  "score": 54,
-  "stars": 274,
-  "status": "active",
-  "tier": 3,
-  "title": "Display filename for image being shown in QC report (i.e. output image, rather than input image)",
-  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141"
- },
  "pytorch/pytorch#153410": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 19,
   "created": "2025-05-12T20:49:55Z",
   "labels": [
@@ -440,7 +399,7 @@
  },
  "pytorch/pytorch#158968": {
   "added": "2026-11-19",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 19,
   "created": "2025-07-23T20:50:55Z",
   "labels": [
@@ -465,7 +424,7 @@
  },
  "ray-project/ray#52656": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 3,
   "created": "2025-04-28T17:51:56Z",
   "labels": [
@@ -488,7 +447,7 @@
  },
  "ray-project/ray#53591": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 5,
   "created": "2025-06-05T18:35:44Z",
   "labels": [
@@ -511,7 +470,7 @@
  },
  "ray-project/ray#59884": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 9,
   "created": "2026-01-06T08:07:52Z",
   "labels": [
@@ -532,7 +491,7 @@
  },
  "ray-project/ray#62480": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 7,
   "created": "2026-04-09T21:40:01Z",
   "labels": [
@@ -557,7 +516,7 @@
  },
  "ray-project/ray#64880": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 6,
   "created": "2026-07-20T17:07:21Z",
   "labels": [
@@ -578,7 +537,7 @@
  },
  "run-llama/llama_index#24363": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 1,
   "created": "2026-11-21T04:02:56Z",
   "labels": [
@@ -597,7 +556,7 @@
  },
  "spinalcordtoolbox/spinalcordtoolbox#4748": {
   "added": "2026-11-23",
-  "checked": "2026-11-27",
+  "checked": "2026-11-28",
   "comments": 1,
   "created": "2024-12-06T16:42:45Z",
   "labels": [
@@ -615,25 +574,5 @@
   "tier": 3,
   "title": "SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is \">=10.13\"",
   "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748"
- },
- "spinalcordtoolbox/spinalcordtoolbox#5141": {
-  "added": "2026-11-23",
-  "checked": "2026-11-27",
-  "comments": 2,
-  "created": "2026-01-13T16:43:27Z",
-  "labels": [
-   "sct_qc",
-   "good first issue"
-  ],
-  "lang": "Python",
-  "note": "",
-  "number": 5141,
-  "repo": "spinalcordtoolbox/spinalcordtoolbox",
-  "score": 54,
-  "stars": 274,
-  "status": "active",
-  "tier": 3,
-  "title": "Display filename for image being shown in QC report (i.e. output image, rather than input image)",
-  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141"
  }
 }

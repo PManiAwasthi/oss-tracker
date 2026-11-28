@@ -45,5 +45,72 @@
   "tier": 3,
   "title": "Anatomical / Bowsher Prior for emission tomography",
   "url": "https://github.com/deepinv/deepinv/issues/1510"
+ },
+ "deepinv/deepinv#643": {
+  "added": "2026-11-23",
+  "checked": "2026-11-27",
+  "closed_on": "2026-11-28",
+  "closed_reason": "open PR by hasnaaain",
+  "comments": 1,
+  "created": "2025-07-27T17:44:12Z",
+  "labels": [
+   "good first issue",
+   "priority: low",
+   "type: documentation"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 643,
+  "repo": "deepinv/deepinv",
+  "score": 45,
+  "stars": 858,
+  "status": "closed",
+  "tier": 3,
+  "title": "Physics User Guide more verbose",
+  "url": "https://github.com/deepinv/deepinv/issues/643"
+ },
+ "neuropoly/spinalcordtoolbox#5141": {
+  "added": "2026-11-19",
+  "checked": "2026-11-27",
+  "closed_on": "2026-11-28",
+  "closed_reason": "assigned to elhil",
+  "comments": 2,
+  "created": "2026-01-13T16:43:27Z",
+  "labels": [
+   "sct_qc",
+   "good first issue"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 5141,
+  "repo": "neuropoly/spinalcordtoolbox",
+  "score": 54,
+  "stars": 274,
+  "status": "closed",
+  "tier": 3,
+  "title": "Display filename for image being shown in QC report (i.e. output image, rather than input image)",
+  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141"
+ },
+ "spinalcordtoolbox/spinalcordtoolbox#5141": {
+  "added": "2026-11-23",
+  "checked": "2026-11-27",
+  "closed_on": "2026-11-28",
+  "closed_reason": "assigned to elhil",
+  "comments": 2,
+  "created": "2026-01-13T16:43:27Z",
+  "labels": [
+   "sct_qc",
+   "good first issue"
+  ],
+  "lang": "Python",
+  "note": "",
+  "number": 5141,
+  "repo": "spinalcordtoolbox/spinalcordtoolbox",
+  "score": 54,
+  "stars": 274,
+  "status": "closed",
+  "tier": 3,
+  "title": "Display filename for image being shown in QC report (i.e. output image, rather than input image)",
+  "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141"
  }
 }

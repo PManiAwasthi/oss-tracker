@@ -1,67 +1,67 @@
 # Open-source opportunities: AI × Neuroscience
-_Updated 2026-11-27 08:58 UTC · 30 active · +0 new today · 0 closed today_
+_Updated 2026-11-28 08:19 UTC · 27 active · +0 new today · 3 closed today_
 
 ## Top 15 candidates
 <!-- TOP-START -->
 | Score | Issue | Repo | Lang | Labels | Age | 💬 |
 |---|---|---|---|---|---|---|
-| 159 | [Remove `ignored` classifications from code.](https://github.com/ME-ICA/tedana/issues/1503) ⭐ yours | ME-ICA/tedana | Python | good first issue, refactoring, effort: low | 71d | 1 |
-| 59 | [Add support for saving larger-resolution images](https://github.com/mne-tools/mne-python/issues/14385) | mne-tools/mne-python | Python | ENH, EASY | 50d | 2 |
-| 55 | [ToDo: Squid should change size based on age](https://github.com/ViciousSquid/Dosidicus/issues/31) | ViciousSquid/Dosidicus | Python | help wanted, good first issue, ToDo | 261d | 1 |
-| 54 | [[Feature] progress bar during saving of curated data in the `napari` GUI](https://github.com/brainglobe/cellfinder/issues/626) | brainglobe/cellfinder | Python | enhancement, good first issue | 168d | 2 |
-| 54 | [Include problematic code in ErrorHandler reports](https://github.com/genn-team/genn/issues/752) | genn-team/genn | C++ | enhancement, good first issue | 192d | 2 |
-| 54 | [Display filename for image being shown in QC report (i.e. output image, rather than input ](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141) | neuropoly/spinalcordtoolbox | Python | sct_qc, good first issue | 317d | 2 |
-| 54 | [Display filename for image being shown in QC report (i.e. output image, rather than input ](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141) | spinalcordtoolbox/spinalcordtoolbox | Python | sct_qc, good first issue | 317d | 2 |
-| 50 | [Test CI test on Apple MPS](https://github.com/deepinv/deepinv/issues/1265) | deepinv/deepinv | Python | good first issue, priority: low, core | 139d | 3 |
-| 45 | [Physics User Guide more verbose](https://github.com/deepinv/deepinv/issues/643) | deepinv/deepinv | Python | good first issue, priority: low, type: documentation | 487d | 1 |
-| 45 | [Revise semantics and documentation of Disconnect](https://github.com/nest/nest-simulator/issues/3398) | nest/nest-simulator | C++ | T: Bug, S: Normal, I: Behavior changes | 670d | 2 |
-| 45 | [Replace C macros by C++ constexpr](https://github.com/nest/nest-simulator/issues/3399) | nest/nest-simulator | C++ | S: Normal, I: No breaking change, good first issue | 658d | 2 |
-| 45 | [Replace Crout LU decomposition with Eigen](https://github.com/neuronsimulator/nrn/issues/3881) | neuronsimulator/nrn | C++ | enhancement, good for beginners, nmodl | 52d | 0 |
-| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | neuropoly/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 720d | 1 |
-| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | spinalcordtoolbox/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 720d | 1 |
-| 43 | [[Serve][LLM] SGLangServer multi-replica support](https://github.com/ray-project/ray/issues/62480) | ray-project/ray | Python | bug, good-first-issue, triage | 231d | 7 |
+| 159 | [Remove `ignored` classifications from code.](https://github.com/ME-ICA/tedana/issues/1503) ⭐ yours | ME-ICA/tedana | Python | good first issue, refactoring, effort: low | 72d | 1 |
+| 59 | [Add support for saving larger-resolution images](https://github.com/mne-tools/mne-python/issues/14385) | mne-tools/mne-python | Python | ENH, EASY | 51d | 2 |
+| 55 | [ToDo: Squid should change size based on age](https://github.com/ViciousSquid/Dosidicus/issues/31) | ViciousSquid/Dosidicus | Python | help wanted, good first issue, ToDo | 262d | 1 |
+| 54 | [[Feature] progress bar during saving of curated data in the `napari` GUI](https://github.com/brainglobe/cellfinder/issues/626) | brainglobe/cellfinder | Python | enhancement, good first issue | 169d | 2 |
+| 54 | [Include problematic code in ErrorHandler reports](https://github.com/genn-team/genn/issues/752) | genn-team/genn | C++ | enhancement, good first issue | 193d | 2 |
+| 50 | [Test CI test on Apple MPS](https://github.com/deepinv/deepinv/issues/1265) | deepinv/deepinv | Python | good first issue, priority: low, core | 140d | 3 |
+| 45 | [Revise semantics and documentation of Disconnect](https://github.com/nest/nest-simulator/issues/3398) | nest/nest-simulator | C++ | T: Bug, S: Normal, I: Behavior changes | 671d | 2 |
+| 45 | [Replace C macros by C++ constexpr](https://github.com/nest/nest-simulator/issues/3399) | nest/nest-simulator | C++ | S: Normal, I: No breaking change, good first issue | 659d | 2 |
+| 45 | [Replace Crout LU decomposition with Eigen](https://github.com/neuronsimulator/nrn/issues/3881) | neuronsimulator/nrn | C++ | enhancement, good for beginners, nmodl | 53d | 0 |
+| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | neuropoly/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 721d | 1 |
+| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | spinalcordtoolbox/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 721d | 1 |
+| 43 | [[Serve][LLM] SGLangServer multi-replica support](https://github.com/ray-project/ray/issues/62480) | ray-project/ray | Python | bug, good-first-issue, triage | 232d | 7 |
+| 43 | [[Data] Unity Catalog Delta Table Reads Won't Work with GCP Databricks](https://github.com/ray-project/ray/issues/64880) | ray-project/ray | Python | good-first-issue, data, help-wanted | 130d | 6 |
+| 40 | [Plain-text TSV for motion/physio doesn't scale, can we allow a compact binary format?](https://github.com/bids-standard/bids-specification/issues/2463) | bids-standard/bids-specification | Python | good first issue, data format | 142d | 10 |
+| 40 | [Static typing everywhere](https://github.com/deepinv/deepinv/issues/536) | deepinv/deepinv | Python | good first issue, open to contribs, core | 532d | 3 |
 <!-- TOP-END -->
 
-## Neuro / neuro-AI (20)
+## Neuro / neuro-AI (17)
 | Score | Issue | Repo | Lang | Labels | Age | 💬 |
 |---|---|---|---|---|---|---|
-| 159 | [Remove `ignored` classifications from code.](https://github.com/ME-ICA/tedana/issues/1503) ⭐ yours | ME-ICA/tedana | Python | good first issue, refactoring, effort: low | 71d | 1 |
-| 59 | [Add support for saving larger-resolution images](https://github.com/mne-tools/mne-python/issues/14385) | mne-tools/mne-python | Python | ENH, EASY | 50d | 2 |
-| 55 | [ToDo: Squid should change size based on age](https://github.com/ViciousSquid/Dosidicus/issues/31) | ViciousSquid/Dosidicus | Python | help wanted, good first issue, ToDo | 261d | 1 |
-| 54 | [[Feature] progress bar during saving of curated data in the `napari` GUI](https://github.com/brainglobe/cellfinder/issues/626) | brainglobe/cellfinder | Python | enhancement, good first issue | 168d | 2 |
-| 54 | [Include problematic code in ErrorHandler reports](https://github.com/genn-team/genn/issues/752) | genn-team/genn | C++ | enhancement, good first issue | 192d | 2 |
-| 54 | [Display filename for image being shown in QC report (i.e. output image, rather than input ](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141) | neuropoly/spinalcordtoolbox | Python | sct_qc, good first issue | 317d | 2 |
-| 54 | [Display filename for image being shown in QC report (i.e. output image, rather than input ](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141) | spinalcordtoolbox/spinalcordtoolbox | Python | sct_qc, good first issue | 317d | 2 |
-| 50 | [Test CI test on Apple MPS](https://github.com/deepinv/deepinv/issues/1265) | deepinv/deepinv | Python | good first issue, priority: low, core | 139d | 3 |
-| 45 | [Physics User Guide more verbose](https://github.com/deepinv/deepinv/issues/643) | deepinv/deepinv | Python | good first issue, priority: low, type: documentation | 487d | 1 |
-| 45 | [Revise semantics and documentation of Disconnect](https://github.com/nest/nest-simulator/issues/3398) | nest/nest-simulator | C++ | T: Bug, S: Normal, I: Behavior changes | 670d | 2 |
-| 45 | [Replace C macros by C++ constexpr](https://github.com/nest/nest-simulator/issues/3399) | nest/nest-simulator | C++ | S: Normal, I: No breaking change, good first issue | 658d | 2 |
-| 45 | [Replace Crout LU decomposition with Eigen](https://github.com/neuronsimulator/nrn/issues/3881) | neuronsimulator/nrn | C++ | enhancement, good for beginners, nmodl | 52d | 0 |
-| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | neuropoly/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 720d | 1 |
-| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | spinalcordtoolbox/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 720d | 1 |
-| 40 | [Plain-text TSV for motion/physio doesn't scale, can we allow a compact binary format?](https://github.com/bids-standard/bids-specification/issues/2463) | bids-standard/bids-specification | Python | good first issue, data format | 141d | 10 |
-| 40 | [Static typing everywhere](https://github.com/deepinv/deepinv/issues/536) | deepinv/deepinv | Python | good first issue, open to contribs, core | 531d | 3 |
-| 40 | [Weights information missing for DRUNet](https://github.com/deepinv/deepinv/issues/899) | deepinv/deepinv | Python | good first issue, priority: high | 385d | 3 |
-| 39 | [Fix the indentation in OASIS3-to-BIDS - supported modalities](https://github.com/aramis-lab/clinica/issues/1391) | aramis-lab/clinica | Python | good first issue, doc | 734d | 6 |
-| 35 | [Revise node argument to update_value_param()](https://github.com/nest/nest-simulator/issues/3734) ⚠️ claimed? | nest/nest-simulator | C++ | S: Normal, T: Maintenance, I: No breaking change | 291d | 1 |
-| 34 | [1D intercept of length 1 is accepted as `fix_params` in population GLM with more than 1 un](https://github.com/flatironinstitute/nemos/issues/642) ⚠️ claimed? | flatironinstitute/nemos | Python | bug, good first issue | 44d | 6 |
+| 159 | [Remove `ignored` classifications from code.](https://github.com/ME-ICA/tedana/issues/1503) ⭐ yours | ME-ICA/tedana | Python | good first issue, refactoring, effort: low | 72d | 1 |
+| 59 | [Add support for saving larger-resolution images](https://github.com/mne-tools/mne-python/issues/14385) | mne-tools/mne-python | Python | ENH, EASY | 51d | 2 |
+| 55 | [ToDo: Squid should change size based on age](https://github.com/ViciousSquid/Dosidicus/issues/31) | ViciousSquid/Dosidicus | Python | help wanted, good first issue, ToDo | 262d | 1 |
+| 54 | [[Feature] progress bar during saving of curated data in the `napari` GUI](https://github.com/brainglobe/cellfinder/issues/626) | brainglobe/cellfinder | Python | enhancement, good first issue | 169d | 2 |
+| 54 | [Include problematic code in ErrorHandler reports](https://github.com/genn-team/genn/issues/752) | genn-team/genn | C++ | enhancement, good first issue | 193d | 2 |
+| 50 | [Test CI test on Apple MPS](https://github.com/deepinv/deepinv/issues/1265) | deepinv/deepinv | Python | good first issue, priority: low, core | 140d | 3 |
+| 45 | [Revise semantics and documentation of Disconnect](https://github.com/nest/nest-simulator/issues/3398) | nest/nest-simulator | C++ | T: Bug, S: Normal, I: Behavior changes | 671d | 2 |
+| 45 | [Replace C macros by C++ constexpr](https://github.com/nest/nest-simulator/issues/3399) | nest/nest-simulator | C++ | S: Normal, I: No breaking change, good first issue | 659d | 2 |
+| 45 | [Replace Crout LU decomposition with Eigen](https://github.com/neuronsimulator/nrn/issues/3881) | neuronsimulator/nrn | C++ | enhancement, good for beginners, nmodl | 53d | 0 |
+| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | neuropoly/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 721d | 1 |
+| 44 | [SCT v6.5 cannot be installed on macOS 10.15, but the version listed in documentation is ">](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/4748) | spinalcordtoolbox/spinalcordtoolbox | Python | good first issue, user requested, documentation/*.rst | 721d | 1 |
+| 40 | [Plain-text TSV for motion/physio doesn't scale, can we allow a compact binary format?](https://github.com/bids-standard/bids-specification/issues/2463) | bids-standard/bids-specification | Python | good first issue, data format | 142d | 10 |
+| 40 | [Static typing everywhere](https://github.com/deepinv/deepinv/issues/536) | deepinv/deepinv | Python | good first issue, open to contribs, core | 532d | 3 |
+| 40 | [Weights information missing for DRUNet](https://github.com/deepinv/deepinv/issues/899) | deepinv/deepinv | Python | good first issue, priority: high | 386d | 3 |
+| 39 | [Fix the indentation in OASIS3-to-BIDS - supported modalities](https://github.com/aramis-lab/clinica/issues/1391) | aramis-lab/clinica | Python | good first issue, doc | 735d | 6 |
+| 35 | [Revise node argument to update_value_param()](https://github.com/nest/nest-simulator/issues/3734) ⚠️ claimed? | nest/nest-simulator | C++ | S: Normal, T: Maintenance, I: No breaking change | 292d | 1 |
+| 34 | [1D intercept of length 1 is accepted as `fix_params` in population GLM with more than 1 un](https://github.com/flatironinstitute/nemos/issues/642) ⚠️ claimed? | flatironinstitute/nemos | Python | bug, good first issue | 45d | 6 |
 
 ## AI / ML / LLM (10)
 | Score | Issue | Repo | Lang | Labels | Age | 💬 |
 |---|---|---|---|---|---|---|
-| 43 | [[Serve][LLM] SGLangServer multi-replica support](https://github.com/ray-project/ray/issues/62480) | ray-project/ray | Python | bug, good-first-issue, triage | 231d | 7 |
-| 43 | [[Data] Unity Catalog Delta Table Reads Won't Work with GCP Databricks](https://github.com/ray-project/ray/issues/64880) | ray-project/ray | Python | good-first-issue, data, help-wanted | 129d | 6 |
-| 38 | [Docs idea: Screwtape agent_fleet_compliance for agent spend audit](https://github.com/run-llama/llama_index/issues/24363) ⚠️ claimed? | run-llama/llama_index | Python | good first issue | 6d | 1 |
-| 33 | [[Tune] Tuner.fit output table not visible in Dark mode](https://github.com/ray-project/ray/issues/52656) | ray-project/ray | Python | bug, good-first-issue, tune | 577d | 3 |
-| 33 | [[core] Adopt `absl::InlinedVector` for small, frequently-allocated collections](https://github.com/ray-project/ray/issues/59884) | ray-project/ray | Python | good-first-issue, core, contribution-welcome | 325d | 9 |
-| 23 | [Compile bug: ios swift xcode build error when upgrade to llama : use cmake for swift build](https://github.com/ggml-org/llama.cpp/issues/10747) | ggml-org/llama.cpp | C++ | help wanted, good first issue, build | 717d | 41 |
-| 23 | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | huggingface/peft | Python | good first issue, help wanted, contributions-welcome | 689d | 180 |
-| 23 | [[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_o](https://github.com/pytorch/pytorch/issues/153410) | pytorch/pytorch | Python | good first issue, oncall: pt2, export-triaged | 563d | 19 |
-| 23 | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | pytorch/pytorch | Python | feature, good first issue, triaged | 491d | 19 |
-| 13 | [[Core] ray._raylet.ObjectRef and ray.types.ObjectRef type compabtibility](https://github.com/ray-project/ray/issues/53591) ⚠️ claimed? | ray-project/ray | Python | good-first-issue, enhancement, P1 | 539d | 5 |
+| 43 | [[Serve][LLM] SGLangServer multi-replica support](https://github.com/ray-project/ray/issues/62480) | ray-project/ray | Python | bug, good-first-issue, triage | 232d | 7 |
+| 43 | [[Data] Unity Catalog Delta Table Reads Won't Work with GCP Databricks](https://github.com/ray-project/ray/issues/64880) | ray-project/ray | Python | good-first-issue, data, help-wanted | 130d | 6 |
+| 38 | [Docs idea: Screwtape agent_fleet_compliance for agent spend audit](https://github.com/run-llama/llama_index/issues/24363) ⚠️ claimed? | run-llama/llama_index | Python | good first issue | 7d | 1 |
+| 33 | [[Tune] Tuner.fit output table not visible in Dark mode](https://github.com/ray-project/ray/issues/52656) | ray-project/ray | Python | bug, good-first-issue, tune | 578d | 3 |
+| 33 | [[core] Adopt `absl::InlinedVector` for small, frequently-allocated collections](https://github.com/ray-project/ray/issues/59884) | ray-project/ray | Python | good-first-issue, core, contribution-welcome | 326d | 9 |
+| 23 | [Compile bug: ios swift xcode build error when upgrade to llama : use cmake for swift build](https://github.com/ggml-org/llama.cpp/issues/10747) | ggml-org/llama.cpp | C++ | help wanted, good first issue, build | 718d | 41 |
+| 23 | [Comparison of Different Fine-Tuning Techniques for Conversational AI](https://github.com/huggingface/peft/issues/2310) | huggingface/peft | Python | good first issue, help wanted, contributions-welcome | 690d | 180 |
+| 23 | [[Feature request] `torch.export` .save/.load could support `safetensors` and/or `weights_o](https://github.com/pytorch/pytorch/issues/153410) | pytorch/pytorch | Python | good first issue, oncall: pt2, export-triaged | 564d | 19 |
+| 23 | [foreach_map enhancements](https://github.com/pytorch/pytorch/issues/158968) | pytorch/pytorch | Python | feature, good first issue, triaged | 492d | 19 |
+| 13 | [[Core] ray._raylet.ObjectRef and ray.types.ObjectRef type compabtibility](https://github.com/ray-project/ray/issues/53591) ⚠️ claimed? | ray-project/ray | Python | good-first-issue, enhancement, P1 | 540d | 5 |
 
 ## Recently closed
 | Issue | Repo | Why | On |
 |---|---|---|---|
+| [Physics User Guide more verbose](https://github.com/deepinv/deepinv/issues/643) | deepinv/deepinv | open PR by hasnaaain | 2026-11-28 |
+| [Display filename for image being shown in QC report (i.e. output image](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141) | neuropoly/spinalcordtoolbox | assigned to elhil | 2026-11-28 |
+| [Display filename for image being shown in QC report (i.e. output image](https://github.com/spinalcordtoolbox/spinalcordtoolbox/issues/5141) | spinalcordtoolbox/spinalcordtoolbox | assigned to elhil | 2026-11-28 |
 | [Error in bregman_prox description](https://github.com/deepinv/deepinv/issues/1112) | deepinv/deepinv | issue closed | 2026-11-24 |
 | [Anatomical / Bowsher Prior for emission tomography](https://github.com/deepinv/deepinv/issues/1510) | deepinv/deepinv | assigned to kushagra481 | 2026-11-24 |
